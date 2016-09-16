@@ -27,7 +27,7 @@ module.exports.connections = {
     user: 'corazonquindio', // optional
     password: 'Littlejohn242423', // optional
     database: 'corazonquindio', //optional
-    poolSize: 10,
+    poolSize: 20,
     ssl: false
   }
 };
