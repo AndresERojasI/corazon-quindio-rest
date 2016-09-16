@@ -27,8 +27,7 @@ module.exports.connections = {
     user: 'corazonquindio', // optional
     password: 'Littlejohn242423', // optional
     database: 'corazonquindio', //optional
-    ssl: {
-      rejectUnauthorized: false
-    }
+    poolSize: 10,
+    ssl: false
   }
 };
