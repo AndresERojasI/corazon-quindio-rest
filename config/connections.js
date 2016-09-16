@@ -26,6 +26,9 @@ module.exports.connections = {
     port: 5433,
     user: 'corazonquindio', // optional
     password: 'Littlejohn242423', // optional
-    database: 'corazonquindio' //optional
+    database: 'corazonquindio', //optional
+    ssl: {
+      rejectUnauthorized: false
+    }
   }
 };
