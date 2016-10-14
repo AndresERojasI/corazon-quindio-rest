@@ -22,10 +22,10 @@
 module.exports.connections = {
   postgressConn: {
     adapter: 'sails-postgresql',
-    host: 'corazonquindio.cnsuu2xt82ee.us-west-2.rds.amazonaws.com',
-    port: 5433,
+    host: 'localhost',
+    port: 5432,
     user: 'corazonquindio', // optional
-    password: 'Littlejohn242423', // optional
+    password: '123456', // optional
     database: 'corazonquindio', //optional
     poolSize: 20,
     ssl: false
